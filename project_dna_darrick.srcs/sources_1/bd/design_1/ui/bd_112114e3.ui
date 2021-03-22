@@ -1,0 +1,73 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port rx_clk -pg 1 -y 1770 -defaultsOSRD
+preplace port addr_fifo_empty1 -pg 1 -y 200 -defaultsOSRD
+preplace port read_dram_out -pg 1 -y 380 -defaultsOSRD
+preplace port s00_axi_aresetn -pg 1 -y 520 -defaultsOSRD
+preplace port dbgo_dram_data_valid -pg 1 -y 260 -defaultsOSRD
+preplace port S00_AXI -pg 1 -y 400 -defaultsOSRD
+preplace port addr_fifo_read1 -pg 1 -y 140 -defaultsOSRD
+preplace port rx_resetn -pg 1 -y 1800 -defaultsOSRD
+preplace port addr_fifo_full1 -pg 1 -y 170 -defaultsOSRD
+preplace port addr_fifo_write1 -pg 1 -y 110 -defaultsOSRD
+preplace port dram_data_ready -pg 1 -y 320 -defaultsOSRD
+preplace port interrupt -pg 1 -y 410 -defaultsOSRD
+preplace port outhash_ready -pg 1 -y 290 -defaultsOSRD
+preplace port s00_axi_aclk -pg 1 -y 490 -defaultsOSRD
+preplace port M00_AXI -pg 1 -y 20 -defaultsOSRD
+preplace portBus dbgo_dram_data_in0 -pg 1 -y -10 -defaultsOSRD
+preplace portBus dbgo_dram_data_in1 -pg 1 -y 230 -defaultsOSRD
+preplace portBus addr_rptr1 -pg 1 -y 80 -defaultsOSRD
+preplace portBus read_dram_addr -pg 1 -y 350 -defaultsOSRD
+preplace portBus outnonce -pg 1 -y 650 -defaultsOSRD
+preplace portBus addr_wptr1 -pg 1 -y 50 -defaultsOSRD
+preplace portBus outhash -pg 1 -y 620 -defaultsOSRD
+preplace portBus dbg_mode -pg 1 -y 550 -defaultsOSRD
+preplace inst ethash2_wrap_0 -pg 1 -lvl 2 -y 1910 -defaultsOSRD
+preplace inst dram_axi_0 -pg 1 -lvl 2 -y 140 -defaultsOSRD
+preplace inst reg_rw_axi_0 -pg 1 -lvl 1 -y 460 -defaultsOSRD
+preplace inst ethash_core_0 -pg 1 -lvl 3 -y 880 -defaultsOSRD
+preplace netloc Conn1 1 0 1 NJ
+preplace netloc addr_fifo_write 1 2 2 NJ 110 N
+preplace netloc ethash2_wrap_0_outnonce 1 0 4 50J 650 NJ 650 NJ 650 NJ
+preplace netloc dram_axi_0_dram_data_in1 1 2 1 N
+preplace netloc ethash2_wrap_0_outhash2 1 0 1 N
+preplace netloc reg_rw_axi_0_factor 1 1 1 N
+preplace netloc reg_rw_axi_0_num_pages 1 1 1 N
+preplace netloc reg_rw_axi_0_interrupt 1 1 3 490J 360 NJ 360 1190J
+preplace netloc ethash2_wrap_0_outhash 1 0 4 40J 630 NJ 630 NJ 630 1180J
+preplace netloc reg_rw_axi_0_stopnonce 1 1 1 N
+preplace netloc reg_rw_axi_0_inhash 1 1 1 N
+preplace netloc addr_wptr 1 2 2 NJ 70 1190
+preplace netloc ethash2_wrap_0_dbgo_dram_data_in0 1 3 1 N
+preplace netloc reg_rw_axi_0_ethash_resetn 1 1 2 N 370 870
+preplace netloc ethash2_wrap_0_dbgo_dram_data_in1 1 3 1 N
+preplace netloc ethash2_wrap_0_found 1 0 1 N
+preplace netloc reg_rw_axi_0_start 1 1 1 N
+preplace netloc ethash2_wrap_0_read_dram_addr 1 1 3 510 350 NJ 350 NJ
+preplace netloc reg_rw_axi_0_compare 1 1 1 N
+preplace netloc reg_rw_axi_0_num_zeroes 1 1 1 N
+preplace netloc dram_axi_0_M00_AXI 1 2 2 NJ 50 1180
+preplace netloc addr_fifo_full 1 2 2 NJ 150 1190
+preplace netloc addr_fifo_read 1 2 2 NJ 130 1190
+preplace netloc ethash2_wrap_0_dram_data_ready 1 1 3 520 320 NJ 320 NJ
+preplace netloc rx_clk_1 1 0 2 NJ 1770 500J
+preplace netloc addr_rptr 1 2 2 NJ 90 1180
+preplace netloc ethash2_wrap_0_outhash_ready 1 3 1 N
+preplace netloc ethash2_wrap_0_read_dram_out 1 1 3 500 380 NJ 380 NJ
+preplace netloc s00_axi_aclk_1 1 0 3 30 290 490 310 880
+preplace netloc dram_axi_0_dram_data_valid 1 2 1 N
+preplace netloc s00_axi_aresetn_1 1 0 2 20 190 N
+preplace netloc addr_fifo_empty 1 2 2 NJ 170 1180
+preplace netloc reg_rw_axi_0_dbg_mode 1 1 3 NJ 550 NJ 550 NJ
+preplace netloc rx_resetn_1 1 0 2 NJ 1800 NJ
+preplace netloc reg_rw_axi_0_dram_base_addr 1 1 1 480
+preplace netloc ethash2_wrap_0_dbgo_dram_data_valid 1 3 1 N
+preplace netloc reg_rw_axi_0_innonce 1 1 1 N
+preplace netloc dram_axi_0_dram_data_in0 1 2 1 N
+levelinfo -pg 1 0 330 700 1030 1210 -top -250 -bot 3170
+"
+}
+

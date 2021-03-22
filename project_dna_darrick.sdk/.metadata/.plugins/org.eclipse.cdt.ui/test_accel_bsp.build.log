@@ -1,0 +1,81 @@
+15:05:34 **** Build of project test_accel_bsp ****
+make -k all 
+Running Make include in accelerator_0_microblaze_0/libsrc/standalone_v6_8/src
+make -C accelerator_0_microblaze_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in accelerator_0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C accelerator_0_microblaze_0/libsrc/uartlite_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in accelerator_0_microblaze_0/libsrc/bram_v4_2/src
+make -C accelerator_0_microblaze_0/libsrc/bram_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in accelerator_0_microblaze_0/libsrc/cpu_v2_8/src
+make -C accelerator_0_microblaze_0/libsrc/cpu_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in accelerator_0_microblaze_0/libsrc/gpio_v4_3/src
+make -C accelerator_0_microblaze_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make include in accelerator_0_microblaze_0/libsrc/intc_v3_8/src
+make -C accelerator_0_microblaze_0/libsrc/intc_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Running Make libs in accelerator_0_microblaze_0/libsrc/standalone_v6_8/src
+make -C accelerator_0_microblaze_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling standalone
+microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+Running Make libs in accelerator_0_microblaze_0/libsrc/uartlite_v3_2/src
+make -C accelerator_0_microblaze_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling uartlite
+Running Make libs in accelerator_0_microblaze_0/libsrc/bram_v4_2/src
+make -C accelerator_0_microblaze_0/libsrc/bram_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling bram
+xbram_g.c:80:2: warning: missing initializer for field 'CtrlBaseAddress' of 'XBram_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  },
+  ^
+In file included from xbram_g.c:37:0:
+xbram.h:171:10: note: 'CtrlBaseAddress' declared here
+  UINTPTR CtrlBaseAddress;     /**< Device register base address.*/
+          ^~~~~~~~~~~~~~~
+xbram_g.c:97:2: warning: missing initializer for field 'CtrlBaseAddress' of 'XBram_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xbram_g.c:37:0:
+xbram.h:171:10: note: 'CtrlBaseAddress' declared here
+  UINTPTR CtrlBaseAddress;     /**< Device register base address.*/
+          ^~~~~~~~~~~~~~~
+Running Make libs in accelerator_0_microblaze_0/libsrc/cpu_v2_8/src
+make -C accelerator_0_microblaze_0/libsrc/cpu_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling cpu
+Running Make libs in accelerator_0_microblaze_0/libsrc/gpio_v4_3/src
+make -C accelerator_0_microblaze_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling gpio
+Running Make libs in accelerator_0_microblaze_0/libsrc/intc_v3_8/src
+make -C accelerator_0_microblaze_0/libsrc/intc_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra"
+Compiling intc
+xintc_g.c:67:4: warning: excess elements in array initializer
+    {
+    ^
+xintc_g.c:67:4: note: (near initialization for 'XIntc_ConfigTable[0].HandlerTable')
+xintc_g.c:71:4: warning: excess elements in array initializer
+    {
+    ^
+xintc_g.c:71:4: note: (near initialization for 'XIntc_ConfigTable[0].HandlerTable')
+xintc_g.c:75:4: warning: excess elements in array initializer
+    {
+    ^
+xintc_g.c:75:4: note: (near initialization for 'XIntc_ConfigTable[0].HandlerTable')
+xintc_g.c:79:4: warning: excess elements in array initializer
+    {
+    ^
+xintc_g.c:79:4: note: (near initialization for 'XIntc_ConfigTable[0].HandlerTable')
+xintc_g.c:83:4: warning: excess elements in array initializer
+    {
+    ^
+xintc_g.c:83:4: note: (near initialization for 'XIntc_ConfigTable[0].HandlerTable')
+xintc_g.c:87:4: warning: excess elements in array initializer
+    {
+    ^
+xintc_g.c:87:4: note: (near initialization for 'XIntc_ConfigTable[0].HandlerTable')
+xintc_g.c:91:4: warning: excess elements in array initializer
+    {
+    ^
+xintc_g.c:91:4: note: (near initialization for 'XIntc_ConfigTable[0].HandlerTable')
+Finished building libraries
+
+15:05:37 Build Finished (took 2s.284ms)
+

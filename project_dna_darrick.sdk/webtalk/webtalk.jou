@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# 
+# Start of session at: Thu Aug  8 16:28:34 2019
+# Process ID: 11848
+# Current directory: /home/fpga/Mei/Eth/WIP/20190807/u200_pciedma_mm/u200_pciedma_mm.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/fpga/Mei/Eth/WIP/20190807/u200_pciedma_mm/u200_pciedma_mm.sdk/webtalk/webtalk.log
+# Journal file: /home/fpga/Mei/Eth/WIP/20190807/u200_pciedma_mm/u200_pciedma_mm.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
