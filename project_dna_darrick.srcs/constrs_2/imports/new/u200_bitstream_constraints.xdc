@@ -33,7 +33,3 @@ set_property BITSTREAM.STARTUP.MATCH_CYCLE NOWAIT [current_design]
 
 set_property HD.PARTPIN_LOCS {INT_X107Y480} [get_ports {pci_express_x16_txn[0]}]
 set_property HD.PARTPIN_LOCS {INT_X107Y480} [get_ports {pci_express_x16_txp[0]}]
-
-connect_debug_port u_ila_0/probe0 [get_nets [list {design_1_i/ethash_wrapper_0/inst/multi[0].ethash/start_reg_n_0}]]
-connect_debug_port dbg_hub/clk [get_nets clk]
-

@@ -14,7 +14,3 @@ set_property src_info {type:XDC file:1 line:25 export:INPUT save:INPUT read:READ
 set_property HD.TANDEM 1 [get_cells pcie_perstn_IBUF_inst]
 set_property src_info {type:XDC file:1 line:26 export:INPUT save:INPUT read:READ} [current_design]
 set_property HD.TANDEM 1 [get_cells design_1_i/ddr4_1]
-set_property src_info {type:XDC file:1 line:37 export:INPUT save:INPUT read:READ} [current_design]
-connect_debug_port u_ila_0/probe0 [get_nets [list {design_1_i/ethash_wrapper_0/inst/multi[0].ethash/start_reg_n_0}]]
-set_property src_info {type:XDC file:1 line:38 export:INPUT save:INPUT read:READ} [current_design]
-connect_debug_port dbg_hub/clk [get_nets clk]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xcu200-fsgd2104-2-e" LaunchTime="1616425854">
+<GenRun Id="synth_1" LaunchPart="xcu200-fsgd2104-2-e" LaunchTime="1616427302">
   <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="design_1_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
@@ -27,36 +27,6 @@
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/u200_pciedma_mm/archive_project_summary.txt">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../u200_pciedma_mm/archive_project_summary.txt"/>
-        <Attr Name="ImportTime" Val="1565091034"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/u200_pciedma_mm/u200_pciedma_mm.sdk/test_accel/Debug/test_accel.elf">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../u200_pciedma_mm/u200_pciedma_mm.sdk/test_accel/Debug/test_accel.elf"/>
-        <Attr Name="ImportTime" Val="1565252979"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="IsVisible" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/Debug/test_accel.elf">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../u200_pciedma_mm_wip_0815/u200_pciedma_mm_wip_0815.sdk/test_accel/Debug/test_accel.elf"/>
-        <Attr Name="ImportTime" Val="1565252979"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="ScopedToRef" Val="design_1"/>
-        <Attr Name="ScopedToCell" Val="accelerator_0/microblaze_0"/>
-        <Attr Name="IsVisible" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/u200/archive_project_summary.txt">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../archive_project_summary.txt"/>
-        <Attr Name="ImportTime" Val="1566175952"/>
       </FileInfo>
     </File>
     <Config>

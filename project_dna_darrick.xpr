@@ -94,36 +94,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/u200_pciedma_mm/archive_project_summary.txt">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../u200_pciedma_mm/archive_project_summary.txt"/>
-          <Attr Name="ImportTime" Val="1565091034"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/u200_pciedma_mm/u200_pciedma_mm.sdk/test_accel/Debug/test_accel.elf">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../u200_pciedma_mm/u200_pciedma_mm.sdk/test_accel/Debug/test_accel.elf"/>
-          <Attr Name="ImportTime" Val="1565252979"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="IsVisible" Val="1"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/Debug/test_accel.elf">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../u200_pciedma_mm_wip_0815/u200_pciedma_mm_wip_0815.sdk/test_accel/Debug/test_accel.elf"/>
-          <Attr Name="ImportTime" Val="1565252979"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="ScopedToRef" Val="design_1"/>
-          <Attr Name="ScopedToCell" Val="accelerator_0/microblaze_0"/>
-          <Attr Name="IsVisible" Val="1"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/u200/archive_project_summary.txt">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../archive_project_summary.txt"/>
-          <Attr Name="ImportTime" Val="1566175952"/>
-        </FileInfo>
-      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="design_1_wrapper"/>
@@ -273,7 +243,7 @@
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xcu200-fsgd2104-2-e" ConstrsSet="constrs_2" Description="Includes alternate algorithms for timing-driven optimization" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xcu200-fsgd2104-2-e" ConstrsSet="constrs_2" Description="Includes alternate algorithms for timing-driven optimization" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Performance_ExtraTimingOpt" Flow="Vivado Implementation 2018"/>
         <Step Id="init_design"/>
@@ -292,7 +262,6 @@
         <Step Id="post_route_phys_opt_design"/>
         <Step Id="write_bitstream"/>
       </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2018"/>
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
     </Run>

@@ -17,6 +17,10 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param power.BramSDPPropagationFix 1
+set_param power.enableUnconnectedCarry8PinPower 1
+set_param power.enableCarry8RouteBelPower 1
+set_param power.enableLutRouteBelPower 1
 set_msg_config  -id {[BD 41-1306]}  -suppress 
 set_msg_config  -id {[BD 41-1271]}  -suppress 
 create_project -in_memory -part xcu200-fsgd2104-2-e
@@ -35,10 +39,6 @@ set_property ip_repo_paths c:/Project/u200/project_dna_darrick [current_project]
 update_ip_catalog
 set_property ip_output_repo c:/Project/u200/project_dna_darrick/project_dna_darrick.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/imports/u200_pciedma_mm/u200_pciedma_mm.sdk/test_accel/Debug/test_accel.elf
-add_files C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/imports/Debug/test_accel.elf
-set_property SCOPED_TO_REF design_1 [get_files -all C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/imports/Debug/test_accel.elf]
-set_property SCOPED_TO_CELLS accelerator_0/microblaze_0 [get_files -all C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/imports/Debug/test_accel.elf]
 read_verilog -library xil_defaultlib C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
 add_files C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all c:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/bd/design_1/ip/design_1_xdma_0_3/design_1_xdma_0_3_board.xdc]
