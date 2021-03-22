@@ -72,9 +72,6 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 read_xdc C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/constrs_2/imports/new/u200_bitstream_constraints.xdc
 set_property used_in_implementation false [get_files C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/constrs_2/imports/new/u200_bitstream_constraints.xdc]
 
-read_xdc C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/constrs_2/new/ethash2.xdc
-set_property used_in_implementation false [get_files C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/constrs_2/new/ethash2.xdc]
-
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1

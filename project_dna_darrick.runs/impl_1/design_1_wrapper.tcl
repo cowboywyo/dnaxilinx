@@ -73,7 +73,7 @@ set rc [catch {
   set_param project.singleFileAddWarning.threshold 0
   set_property webtalk.parent_dir C:/Project/u200/project_dna_darrick/project_dna_darrick.cache/wt [current_project]
   set_property parent.project_path C:/Project/u200/project_dna_darrick/project_dna_darrick.xpr [current_project]
-  set_property ip_repo_paths c:/Project/u200/project_dna_darrick [current_project]
+  set_property ip_repo_paths C:/Project/u200/project_dna_darrick [current_project]
   update_ip_catalog
   set_property ip_output_repo C:/Project/u200/project_dna_darrick/project_dna_darrick.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
@@ -87,7 +87,6 @@ set rc [catch {
   set_property SCOPED_TO_REF design_1 [get_files -all C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/imports/Debug/test_accel.elf]
   set_property SCOPED_TO_CELLS accelerator_0/microblaze_0 [get_files -all C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/sources_1/imports/Debug/test_accel.elf]
   read_xdc C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/constrs_2/imports/new/u200_bitstream_constraints.xdc
-  read_xdc C:/Project/u200/project_dna_darrick/project_dna_darrick.srcs/constrs_2/new/ethash2.xdc
   set_param project.isImplRun true
   link_design -top design_1_wrapper -part xcu200-fsgd2104-2-e
   set_param project.isImplRun false
